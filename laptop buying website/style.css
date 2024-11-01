@@ -1,0 +1,1399 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+/* font-family: "Lexend Deca", sans-serif; */
+/* font-family: "Press Start 2P", system-ui; */
+
+:root {
+  --primary: #d9d9d9;
+  --secondary: #000000;
+  --bg: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.navbar {
+  font-family: "Press Start 2P", system-ui;
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar h1 {
+  font-size: 50px;
+}
+
+.navbar h1:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.navbar a:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+/* GRIDS */
+
+.mac {
+  width: 1100px;
+  height: 380px;
+  margin-left: 150px;
+  margin-top: 100px;
+  text-align: center;
+  align-content: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 180px;
+  font-weight: bold;
+  position: static;
+}
+
+.mac:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.mac a {
+  text-decoration: none;
+  color: black;
+}
+
+.technews {
+  width: 450px;
+  height: 380px;
+  margin-right: 150px;
+  margin-left: 1280px;
+  margin-top: -380px;
+  text-align: center;
+  align-content: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 60px;
+  position: static;
+  font-weight: bold;
+  right: 0;
+}
+
+.technews a {
+  text-decoration: none;
+  color: black;
+}
+
+.technews:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.new {
+  width: 500px;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 30px;
+  text-align: center;
+  align-content: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: static;
+  font-weight: bold;
+}
+
+.new a {
+  text-decoration: none;
+  color: black;
+}
+
+.new:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.comp {
+  width: 500px;
+  height: 140px;
+  margin-left: 700px;
+  margin-top: -350px;
+  text-align: center;
+  align-content: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: static;
+  font-weight: bold;
+}
+
+.comp a {
+  text-decoration: none;
+  color: black;
+}
+
+.comp:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.contact {
+  width: 450px;
+  height: 140px;
+  margin-right: 150px;
+  margin-left: 1280px;
+  margin-top: -140px;
+  text-align: center;
+  align-content: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: static;
+  right: 0;
+  font-weight: bold;
+
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.windows {
+  width: 1030px;
+  height: 180px;
+  margin-left: 700px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
+  align-content: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 75px;
+  position: static;
+  font-weight: bold;
+}
+
+.windows a {
+  text-decoration: none;
+  color: black;
+}
+
+.windows:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+/* User */
+
+
+.gaming:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.gaming img:hover {
+  scale: 1.1;
+}
+
+
+.gaming{
+  height: 700px;
+  width: 750px;
+  margin-left: 150px;
+  position: absolute;
+  transition: .3s ease-in-out;
+}
+
+.gaming img{
+  height: 500px;
+  display: flex;
+  justify-self: center;
+  transition: .3s ease-in-out;
+}
+
+.gaming h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: relative;
+}
+
+.gaming button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-left: 285px;
+  margin-top: 60px;
+}
+
+.gaming button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+
+.student:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.student img:hover{
+  scale: 1.1;
+}
+
+.student{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: right;
+  margin-right: 170px;
+}
+
+.student img{
+  height: 650px;
+  margin-top: -60px;
+  position: static;
+  display: flex;
+  flex-wrap: nowrap;
+  transition: .3s ease-in-out;
+}
+
+.student h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.student button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+}
+
+.student button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+
+
+.pro{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.pro img{
+  height: 700px;
+  margin-top: -80px;
+  transition: .3s ease-in-out;
+}
+
+.pro h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.pro button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+}
+
+.pro button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.pro:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.pro img:hover {
+  scale: 1.1;
+}
+
+.creator{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: right;
+  margin-right: 170px;
+  margin-top: 100px;
+}
+
+.creator img{
+  height: 650px;
+  margin-top: -60px;
+  transition: .3s ease-in-out;
+}
+
+.creator h3{
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.creator button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+}
+
+.creator button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.creator:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.creator img:hover{
+  scale: 1.1;
+}
+
+/* BY TYPE */
+
+#type h1{
+  font-family: "Lexend Deca", sans-serif; 
+  font-size: 80px;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.game{
+  height: 220px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.game h4{
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 30px;
+  
+}
+
+.game h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.game:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.entertain{
+  height: 220px;
+  width: 500px;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 330px;
+  position: absolute;
+  justify-content: center;
+}
+
+.entertain h4{
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 30px;
+  
+}
+
+.entertain h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.entertain:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.know{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-self: center;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.know h4{
+  position: absolute;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 30px;
+  
+}
+
+.know h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+.know button{
+  height: 70px;
+  width: 160px;
+  background-color: black;
+  margin-top: 350px;
+}
+
+.know button a{
+  text-decoration: none;
+  color: #f9f9f9;
+  background-color: black;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 20px;
+}
+
+
+.know:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.studies{
+  height: 220px;
+  width: 480px;
+  display: flex;
+  justify-self: right;
+  margin-right: 170px;
+  margin-top: -500px;
+  justify-content: center;
+}
+
+.studies h4{
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 30px;
+  mix-blend-mode: multiply;
+}
+
+.studies h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.studies:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+
+.specification{
+  height: 220px;
+  width: 480px;
+  display: flex;
+  justify-self: right;
+  margin-right: 170px;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.specification h4{
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 30px;
+  
+}
+
+.specification h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.specification:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.profession{
+  height: 250px;
+  width: 750px;
+  margin-top: 60px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.profession h4{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 50px;
+  
+}
+
+.profession h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.profession:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.creative{
+  height: 250px;
+  width: 750px;
+  margin-top: -250px;
+  margin-right: 170px;
+  justify-self: right;
+  display: flex;
+  justify-content: center;
+}
+
+.creative h4{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 50px;
+  
+}
+
+.creative h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.creative:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+/* By budget */
+
+
+.fifty{
+  height: 250px;
+  width: 450px;
+  margin-left: 150px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.sixty{
+  height: 250px;
+  width: 450px;
+  margin-top: 150px;
+  justify-self: center;
+  margin-left: -20px;
+  display: flex;
+  justify-content: center;
+}
+
+.seventy{
+  height: 250px;
+  width: 450px;
+  margin-top: -250px;
+  display: flex;
+  justify-self: right;
+  margin-right: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+.above{
+  height: 250px;
+  width: 450px;
+  margin-left: 150px;
+  position: absolute;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.bybudget{
+  height: 250px;
+  width: 450px;
+  margin-top: 60px;
+  justify-self: center;
+  margin-left: -20px;
+  display: flex;
+  justify-content: center;
+}
+
+.eighty{
+  height: 250px;
+  width: 450px;
+  margin-top: -250px;
+  display: flex;
+  justify-self: right;
+  margin-right: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+.under{
+  height: 250px;
+  width: 450px;
+  margin-left: 150px;
+  position: absolute;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.lakh{
+  height: 250px;
+  width: 450px;
+  margin-top: 60px;
+  justify-self: center;
+  margin-left: -20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ninty{
+  height: 250px;
+  width: 450px;
+  margin-top: -250px;
+  display: flex;
+  justify-self: right;
+  margin-right: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.fifty h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  mix-blend-mode: multiply;
+  text-align: center;
+}
+
+.fifty h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.fifty:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.sixty h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  
+  text-align: center;
+}
+
+.sixty h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.sixty:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.seventy h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  
+  text-align: center;
+}
+
+.seventy h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.seventy:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.eighty h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  
+  text-align: center;
+}
+
+.eighty h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.eighty:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.above h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  
+  text-align: center;
+}
+
+.above h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.above:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.bybudget h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Lexend Deca", sans-serif; 
+  font-size: 80px;
+  font-weight: 500;
+  
+  text-align: center;
+}
+
+.bybudget h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.ninty h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  
+  text-align: center;
+}
+
+.ninty h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.ninty:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.under h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  
+  text-align: center;
+}
+
+.under h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.under:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.lakh h3{
+  position: absolute;
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  
+  text-align: center;
+}
+
+.lakh h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.lakh:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+/* Desktop */
+
+.title h1{
+  font-family: "Lexend Deca", sans-serif; 
+  font-size: 80px;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.allinone{
+  height: 700px;
+  width: 750px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.allinone img{
+  height: 350px;
+  display: flex;
+  justify-self: center;
+  margin-top: 85px;
+  transition: .3s ease-in-out;
+}
+
+.allinone h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.allinone button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-left: 285px;
+  margin-top: 60px;
+}
+
+.allinone button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.allinone:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.allinone img:hover{
+  scale: 1.1;
+}
+
+.gamingpc{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: right;
+  margin-right: 170px;
+}
+
+.gamingpc img{
+  height: 380px;
+  position: static;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 70px;
+  transition: .3s ease-in-out;
+}
+
+.gamingpc h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.gamingpc button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+}
+
+.gamingpc button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.gamingpc:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.gamingpc img:hover{
+  scale: 1.1;
+}
+
+
+.prebuilt{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 100px;
+  position: absolute;
+
+}
+
+.prebuilt img{
+  height: 400px;
+  margin-top: 60px;
+  transition: .3s ease-in-out;
+}
+
+.prebuilt h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.prebuilt button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+}
+
+.prebuilt button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.prebuilt:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.prebuilt img:hover{
+  scale: 1.1;
+}
+
+.custom{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: right;
+  margin-right: 170px;
+  margin-top: 100px;
+}
+
+.custom img{
+  height: 350px;
+  margin-top: 100px;
+  transition: .3s ease-in-out;
+}
+
+.custom h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.custom button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+}
+
+.custom button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.custom:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.custom img:hover{
+  scale: 1.1;
+}
+
+
+/* Accessories */
+
+.title h1{
+  font-family: "Lexend Deca", sans-serif; 
+  font-size: 80px;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.headphone{
+  height: 700px;
+  width: 750px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.headphone img{
+  height: 350px;
+  display: flex;
+  justify-self: center;
+  margin-top: 85px;
+  transition: .3s ease-in-out;
+}
+
+.headphone h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.headphone button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-left: 285px;
+  margin-top: 160px;
+}
+
+.headphone button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.headphone:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.headphone img:hover{
+  scale: 1.1;
+}
+
+.keyboard{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: right;
+  margin-right: 170px;
+}
+
+.keyboard img{
+  height: 380px;
+  position: static;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 70px;
+  transition: .3s ease-in-out;
+}
+
+.keyboard h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.keyboard button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+}
+
+.keyboard button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.keyboard:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.keyboard img:hover{
+  scale: 1.1;
+}
+
+.mouse{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: left;
+  margin-left: 150px;
+  margin-top: 100px;
+  position: absolute;
+
+}
+
+.mouse img{
+  height: 400px;
+  margin-top: 60px;
+  transition: .3s ease-in-out;
+}
+
+.mouse h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.mouse button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+}
+
+.mouse button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.mouse:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.mouse img:hover{
+  scale: 1.1;
+}
+
+.gamepad{
+  height: 700px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  justify-self: right;
+  margin-right: 170px;
+  margin-top: 100px;
+}
+
+.gamepad img{
+  height: 350px;
+  margin-top: 100px;
+  transition: .3s ease-in-out;
+}
+
+.gamepad h3{
+  
+  display: flex;
+  justify-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.gamepad button{
+  background-color: #000000;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  height: 60px;
+  width: 180px;
+  justify-self: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 550px;
+  
+}
+
+.gamepad button a{
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
+
+.gamepad:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.gamepad img:hover{
+  scale: 1.1;
+}
+
+
+/* footer */
+
+.leftside{
+  height: 700px;
+  width: 550px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.mail{
+  height: 350px;
+  width: 950px;
+  margin-top: 100px;
+  justify-self: right;
+  margin-right: 170px;
+}
+
+.para{
+  height: 330px;
+  width: 950px;
+  margin-top: 20px;
+  justify-self: right;
+  margin-right: 170px;
+  margin-bottom: 50px;
+}
+
+.leftside h2{
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  margin-top: 58px;
+}
+
+.leftside h2 a{
+  text-decoration: none;
+  color: black;
+  column-gap: 40px;
+  margin-top: 30px;
+}
+
+.mail h2{
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+input{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 130px;
+  width: 850px;
+  height: 150px;
+  outline: none;
+  font-size: 90px;
+  padding: 0 10px;
+  line-height: 80px;
+  background: transparent;
+  transition: 0.5 ease;
+  font-family: "Press Start 2P", system-ui;
+
+}
