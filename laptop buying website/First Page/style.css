@@ -11,6 +11,10 @@
 }
 
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 * {
   margin: 0;
@@ -503,6 +507,9 @@
   width: 150px;
   background-color: black;
   margin-top: 350px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .know button a{
@@ -1396,4 +1403,29 @@ input{
   transition: 0.5 ease;
   font-family: "Press Start 2P", system-ui;
 
+}
+
+
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #000000;
 }

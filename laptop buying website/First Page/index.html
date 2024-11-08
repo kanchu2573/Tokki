@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
+
+    <div id="progress">
+        <span id="progress-value">&#x1F815;</span>
+    </div>
+
+<header class="header" id="#home">
     <nav class="navbar">
         <a href="">Laptop</a>
-        <a href="">Desktop</a>
+        <a href="#desktop">Desktop</a>
         <h1 class="tokk">TOKKI</h1>
-        <a href="">Accessories</a>
+        <a href="#Accessories">Accessories</a>
         <a href="">Cart</a>
     </nav>
 </header>
@@ -68,7 +73,7 @@
         <h4><a href="">
             Know More <br>Before Buying <br>
         </a></h4>
-        <button><a href="">Here</a></button>
+        <button><a href="/Know more before buying/index.html">Here</a></button>
     </div>
 
     <div class="studies">
@@ -139,7 +144,7 @@
 
 <!-- Desktop -->
 
-<section class="desktop">
+<section class="desktop" id="desktop">
     <div class="title"><h1>Desktop</h1></div>
 
     <div class="allinone">
@@ -168,7 +173,7 @@
 
 <!-- Accessories -->
 
-<section class="Accessories">
+<section class="Accessories" id="Accessories">
     <div class="title"><h1>Accessories</h1></div>
 
     <div class="headphone">
@@ -200,10 +205,10 @@
 <footer id="last">
 
     <div class="leftside">
-        <h2><a href="">Home</a></h2>
+        <h2><a href="#home">Home</a></h2>
         <h2><a href="">Laptop</a></h2>
-        <h2><a href="">Desktop</a></h2>
-        <h2><a href="">Accessories</a></h2>
+        <h2><a href="#desktop">Desktop</a></h2>
+        <h2><a href="#Accessories">Accessories</a></h2>
         <h2><a href="">Cart</a></h2>
         <h2><a href="">Support</a></h2>
         <h2><a href="">Contact</a></h2>
@@ -220,6 +225,8 @@
     </div>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

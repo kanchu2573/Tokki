@@ -35,6 +35,11 @@ html{
     font-family: "Press Start 2P", system-ui;
 }
 
+.navbar-1 a{
+    text-decoration: none;
+    color: white;
+}
+
 .tokki{
     font-size: 30px;
 }
