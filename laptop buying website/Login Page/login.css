@@ -1,0 +1,159 @@
+*{
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  /* font-family: "Press Start 2P", system-ui;
+    font-family: "Lexend Deca", sans-serif; */
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.title-main{
+    height: 350px;
+    width: 890px;
+    margin: auto;
+    /* background-color: purple; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.welcome{
+    width: 1000px;
+    font-size: 60px;
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    align-content: center;
+}
+
+.welcome h1{
+    font-weight: 400;
+}
+
+.site-name{
+    font-size: 150px;
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+}
+
+.sign-up{
+    margin: auto;
+    margin-top: 20px;
+    height: 50px;
+    width: 890px;
+    display: flex;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+}
+
+.user-pass p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.input-box{
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.username{
+    height: 60px;
+    width: 440px;
+    margin: 10px;
+    margin-bottom: 30px;
+    align-content: center;
+    text-align: left;
+}
+
+.email{
+    height: 60px;
+    width: 440px;
+    margin: 10px;
+    margin-bottom: 30px;
+    align-content: center;
+    text-align: left;
+}
+
+.password{
+    height: 60px;
+    width: 440px;
+    margin: 10px;
+    margin-bottom: 30px;
+    align-content: center;
+    text-align: left;
+}
+
+.login-direct{
+    margin-top: 19.5px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login-direct a{
+    color: white;
+}
+
+.google{
+    height: 60px;
+    width: 440px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: black;
+    align-content: center;
+}
+
+.apple{
+    height: 60px;
+    width: 440px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: black;
+    align-content: center;
+}
+
+.x{
+    height: 60px;
+    width: 440px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: black;
+    align-content: center;
+}
+
+.footer-main{
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+    width: 890px;
+    display: flex;
+    font-family: "Press Start 2P", system-ui;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
