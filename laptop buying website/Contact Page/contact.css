@@ -2,11 +2,8 @@
     /* font-family: "Press Start 2P", system-ui; */
   font-weight: 400;
   font-style: normal;
-}
-
-*{
-    margin: 0;
-    padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .navbar-1{
@@ -41,11 +38,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* background-color: black; */
+    background-color: black;
 }
 
 .sec-1{
-    margin: 20px;
+    margin: 10px;
     display: flex;
     font-family: "Press Start 2P", system-ui;
     text-align: center;
@@ -53,26 +50,26 @@
 }
 
 .x{
-    height: 279px;
-    width: 279px;
+    height: 200px;
+    width: 225px;
     background-color: #D9D9D9;
-    margin: 20px;
+    margin: 10px;
     font-size: 40px;
     align-content: center;
 }
 
 .instagram{
-    height: 279px;
-    width: 1023px;
+    height: 200px;
+    width: 875px;
     background-color: #D9D9D9;
-    margin: 20px;
+    margin: 10px;
     font-size: 40px;
     align-content: center;
     
 }
 
 .sec-2{
-    margin: 20px;
+    margin: 10px;
     display: flex;
     font-family: "Press Start 2P", system-ui;
     text-align: center;
@@ -80,17 +77,17 @@
 }
 
 .phone-no-1{
-    height: 232px;
-    width: 654px;
+    height: 200px;
+    width: 550px;
     background-color: #D9D9D9;
-    margin: 20px;
+    margin: 10px;
     font-size: 40px;
     align-content: center;
 }
 
 
 .sec-3{
-    margin: 20px;
+    margin: 10px;
     display: flex;
     font-family: "Press Start 2P", system-ui;
     text-align: center;
@@ -98,8 +95,13 @@
 }
 
 .box-line-3{
-    height: 232px;
-    width: 418px;
+    height: 200px;
+    width: 356.5px;
+    background-color: #D9D9D9;
+    margin: 10px;
+    font-size: 40px;
+    align-content: center;
+}
     background-color: #D9D9D9;
     margin: 20px;
     font-size: 40px;
