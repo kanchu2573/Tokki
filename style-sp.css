@@ -143,7 +143,7 @@ h2{
  .box1{
   height: 120px;
   width: 220px;
-  margin-left: 2px;
+  margin-left: 50px;
   margin-top: 0px;
   position: absolute;
   background: lightgray;
@@ -159,7 +159,7 @@ h2{
 .box2{
   height: 120px;
   width: 220px;
-  margin-left: 230px;
+  margin-left: 295px;
   margin-top: -2px;
   position: absolute;
   background:  lightgray;
@@ -175,7 +175,7 @@ h2{
 .box3{
   height: 120px;
   width: 220px;
-  margin-left: 460px;
+  margin-left: 538px;
   margin-top: -2px;
   position: absolute;
   background:  lightgray;
@@ -191,7 +191,7 @@ h2{
 .box4{
   height: 120px;
   width: 220px;
-  margin-left: 690px;
+  margin-left: 780px;
   margin-top: -2px;
   position: absolute;
   background: lightgray;
@@ -211,13 +211,13 @@ h2{
   font-size: 50px;
   font-family: sans-serif;
   font-weight: 600;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .highlight .h1{
   height: 160px;
   width: 190px;
-  margin-left: 2px;
+  margin-left: 50px;
   margin-top: 25px;
   position: absolute;
   background: lightgray;
@@ -226,7 +226,7 @@ h2{
 .highlight .h2{
   height: 160px;
   width: 190px;
-  margin-left: 230px;
+  margin-left: 260px;
   margin-top: 25px;
   position: absolute;
   background: lightgray;
@@ -234,7 +234,7 @@ h2{
 .highlight .h3{
   height: 160px;
   width: 190px;
-  margin-left:460px;
+  margin-left:470px;
   margin-top: 25px;
   position: absolute;
   background: lightgray;
@@ -242,7 +242,7 @@ h2{
 .highlight .h4{
   height: 160px;
   width: 190px;
-  margin-left: 690px;
+  margin-left: 680px;
   margin-top: 25px;
   position: absolute;
   background: lightgray;
@@ -250,7 +250,7 @@ h2{
 .highlight .h5{
   height: 160px;
   width: 190px;
-  margin-left: 920px;
+  margin-left: 890px;
   margin-top: 25px;
   position: absolute;
   background: lightgray;
@@ -258,7 +258,7 @@ h2{
 .highlight .h6{
   height: 160px;
   width: 190px;
-  margin-left: 2px;
+  margin-left: 50px;
   margin-top: 220px;
   position: absolute;
   background :lightgray;
@@ -266,7 +266,7 @@ h2{
 .highlight .h7{
   height: 160px;
   width: 190px;
-  margin-left: 230px;
+  margin-left: 260px;
   margin-top: 220px;
   position: absolute;
   background: lightgray;
@@ -274,7 +274,7 @@ h2{
 .highlight .h8{
   height: 160px;
   width: 190px;
-  margin-left: 460px;
+  margin-left: 470px;
   margin-top: 220px;
   position: absolute;
   background: lightgray;
@@ -282,7 +282,7 @@ h2{
 .highlight .h9{
   height: 160px;
   width: 190px;
-  margin-left: 690px;
+  margin-left: 680px;
   margin-top: 220px;
   position: absolute;
   background: lightgray;
@@ -290,7 +290,7 @@ h2{
 .highlight .h10{
   height: 160px;
   width: 190px;
-  margin-left: 920px;
+  margin-left: 890px;
   margin-top: 220px;
   position: absolute;
   background: lightgray;
