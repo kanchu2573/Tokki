@@ -19,3 +19,48 @@ let calcScrollValue = () => {
   
   window.onscroll = calcScrollValue;
   window.onload = calcScrollValue;
+
+
+
+  const cursor = document.getElementById("cursor");
+
+// Load the last known cursor position from localStorage on page load
+window.addEventListener("load", () => {
+    const lastX = localStorage.getItem("cursorX");
+    const lastY = localStorage.getItem("cursorY");
+    
+    // Only set the cursor position if valid coordinates are stored
+    if (lastX !== null && lastY !== null) {
+        // Use a slight delay to let the page elements load fully
+        setTimeout(() => {
+            cursor.style.top = `${lastY}px`;
+            cursor.style.left = `${lastX}px`;
+        }, 50);
+    }
+});
+
+// Update cursor position on mouse move and save to localStorage
+window.addEventListener("mousemove", (e) => {
+    requestAnimationFrame(() => {
+        cursor.style.top = `${e.clientY}px`;
+        cursor.style.left = `${e.clientX}px`;
+        
+        // Save position to localStorage
+        localStorage.setItem("cursorX", e.clientX);
+        localStorage.setItem("cursorY", e.clientY);
+    });
+
+    // Check if the hovered element is an image, heading (h1-h6), button, or anchor tag
+    if (
+        e.target.tagName.toLowerCase() === "img" || 
+        (e.target.tagName.toLowerCase().startsWith("h") && e.target.tagName.length === 2) || 
+        e.target.tagName.toLowerCase() === "button" || 
+        e.target.tagName.toLowerCase() === "a"
+    ) {
+        cursor.classList.add("active");
+    } else {
+        cursor.classList.remove("active");
+    }
+});
+
+

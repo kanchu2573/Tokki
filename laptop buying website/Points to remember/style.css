@@ -77,7 +77,6 @@ html{
 }
 
 .cpu{
-    background-color: #D9D9D9;
     height: 230px;
     width: 650px;
     margin-left: 100px;
@@ -102,7 +101,6 @@ html{
   }
 
 .gpu{
-    background-color: #D9D9D9;
     height: 230px;
     width: 650px;
     justify-self: right;
@@ -130,7 +128,6 @@ html{
 
 
 .ram{
-    background-color: #D9D9D9;
     height: 230px;
     width: 300px;
     margin-left: 100px;
@@ -157,7 +154,6 @@ html{
 
 
 .motherboard{
-    background-color: #D9D9D9;
     height: 230px;
     width: 680px;
     justify-self: center;
@@ -186,7 +182,6 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D9D9D9;
     height: 230px;
     width: 300px;
     margin-right: 100px;
@@ -214,7 +209,6 @@ html{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background-color: #D9D9D9;
     height: 230px;
     width: 425px;
     margin-left: 100px;
@@ -240,7 +234,6 @@ html{
     justify-content: center;
     align-items: center;
     margin-top: -230px;
-    background-color: #D9D9D9;
     height: 230px;
     width: 425px;
     justify-self: center;
@@ -267,7 +260,6 @@ html{
     justify-content: center;
     align-items: center;
     margin-top: -230px;
-    background-color: #D9D9D9;
     height: 230px;
     width: 425px;
     justify-self: right;
@@ -361,3 +353,25 @@ html{
     font-size: 35px;
     color: #000000;
   }
+
+
+  .cursor {
+    position: fixed;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: -4px;
+    margin-top: -4px;
+    z-index: 1000;
+    backdrop-filter: grayscale(1);
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: transform 0.3s cubic-bezier(0.19, 1, 0.22, 1), top 0.1s, left 0.1s;
+  }
+  
+  .cursor.active {
+    transform: scale(10);
+  }
+  
+  

@@ -1429,3 +1429,24 @@ input{
   font-size: 35px;
   color: #000000;
 }
+
+
+.cursor {
+  position: fixed;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background-color: white;
+  margin-left: -4px;
+  margin-top: -4px;
+  z-index: 1000;
+  backdrop-filter: grayscale(1);
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(0.19, 1, 0.22, 1), top 0.1s, left 0.1s;
+}
+
+.cursor.active {
+  transform: scale(10);
+}
+
