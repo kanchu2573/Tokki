@@ -329,7 +329,142 @@ html{
     font-size: 50px;
     font-weight: 300;
   }
+/* footer */
 
+.leftside{
+    height: 700px;
+    width: 550px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-top: 2px;
+    position: absolute;
+  }
+  
+  .mail{
+    height: 350px;
+    width: 950px;
+    margin-top: 20px;
+    justify-self: right;
+    margin-right: 170px;
+  }
+  
+  .para{
+    height: 330px;
+    width: 950px;
+    margin-top: 20px;
+    justify-self: right;
+    margin-right: 170px;
+    margin-bottom: 50px;
+  }
+  
+  .leftside h2{
+    align-self: center;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 35px;
+    margin-top: 58px;
+  }
+  
+  .leftside h2 a{
+    text-decoration: none;
+    color: black;
+    column-gap: 40px;
+    margin-top: 30px;
+  }
+  /*mailllllllllll*/
+  .mail h2{
+    align-self: center;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 35px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 120px;
+  }
+  
+  input{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 130px;
+    width: 750px;
+    height: 60px;
+    outline: none;
+    font-size: 40px;
+    padding: 0 10px;
+    line-height: 80px;
+    background: transparent;
+    transition: 0.5 ease;
+    font-family: serif;
+    border: 0;
+    border-bottom: 2px solid black;
+    font-weight: 20;
+  }
+  .mail button{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    margin-right: 360px;
+    border: none;
+    margin-left: 790px;
+  margin-top: 128px;
+  background: none;
+  }
+  /*lastparaaaaaaaaaaa*/
+  .lastpara{
+    height: 320px;
+    width:480px;
+    position: absolute;
+    background:white;
+    margin-left: 520px;
+    margin-top:0px;
+  }
+  .lastpara h1{
+    margin-top:30px;
+    margin-left: 10px;
+    font-size: 25px;
+     font-family:"Press Start 2P", system-ui;
+  }
+  .lastpara p{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 90px;
+    font-size: 20px;
+    word-spacing: 7px;
+    line-height: 25px;
+    font-family: "lexend Deca",sans-serif;
+  }
+  /*iconsss*/
+  .icon1{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background: gray;
+    margin-top: 120px;
+    margin-left: 1040px;
+  }
+  .icon2{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background: gray;
+    margin-top: -105px;
+    margin-left: 1160px;
+  }
+  .icon3{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background: gray;
+    margin-top: 20px;
+    margin-left: 1040px;
+  }
+  .icon4{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background: gray;
+    margin-top: -105px;
+    margin-left: 1160px;
+  }
+/*cursor*/
   #progress {
     position: fixed;
     bottom: 20px;
