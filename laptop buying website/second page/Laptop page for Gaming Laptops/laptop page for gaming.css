@@ -48,15 +48,20 @@ main{
     flex-wrap: wrap;
 }
 
-<<<<<<< Updated upstream
 .heading{
-    width: 250px;
+    width: 550px;
     color: white;
     background-color: black;
+    margin: 20px;
+    margin-top: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
 }
 
-=======
->>>>>>> Stashed changes
 .box{
     height: 557px;
     width: 440px;
