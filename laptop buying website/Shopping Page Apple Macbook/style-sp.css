@@ -91,6 +91,11 @@ main{
       margin-right: 1px;
       margin-left: 5px;
     }
+
+    .image img{
+      height: 100%;
+      width: 100%;
+    }
 /*h2=with different specs.......?*/
 .mydiv{
   height:460px;
@@ -342,6 +347,7 @@ h2{
 .imageeebox img{
   margin-top: -80px;
   }
+  
 .con11{
   height:250px;
   width:250px;
