@@ -48,12 +48,15 @@ main{
     flex-wrap: wrap;
 }
 
+<<<<<<< Updated upstream
 .heading{
     width: 250px;
     color: white;
     background-color: black;
 }
 
+=======
+>>>>>>> Stashed changes
 .box{
     height: 557px;
     width: 440px;
