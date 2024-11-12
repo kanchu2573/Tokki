@@ -68,6 +68,13 @@ main{
     margin: 20px;
 }
 
+a{ 
+    /* This is to remove all styling in anchor tag */
+    list-style: none;
+    text-decoration-line: none;
+    color: black;
+}
+
 .box p{
     font-size: 12px;
     font-weight: 250;
