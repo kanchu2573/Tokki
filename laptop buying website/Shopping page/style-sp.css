@@ -92,6 +92,7 @@ main{
       margin-left: 5px;
     }
 /*h2=with different specs.......?*/
+/*Macbook M1 Div*/
 .mydiv{
   height:460px;
   width: 400px;
@@ -132,6 +133,7 @@ main{
   margin-top:-20px;
   margin-left: 88px;
 }
+/*heading*/
 h2{
   color: black;
   margin-top:20px;
@@ -140,6 +142,85 @@ h2{
   font-size: 40px;
 
 }
+.mydiv h4 pre{
+  margin-top: 20px;
+  font-size: 15px;
+  margin-left:20px;
+}
+.mydiv h1{margin-top: 20px;
+  font-size: 30px;
+  margin-left:30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mydiv h5{
+  margin-top:-30px;
+  font-size: 15px;
+  margin-left:320px;
+}
+.mydiv p{
+  margin-top: 30px;
+  font-size: 13px;
+  margin-left:20px;
+  margin-right: 80px;
+  font-size:12px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  word-spacing: 2px;
+}
+#button1{
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height:25px;
+  width: 110px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#a1{
+  text-decoration: none;
+  color:white;
+  margin-left:-60px
+}
+#button2{background: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  height:23px;
+  width: 60px;
+  margin-left: -60px;
+  margin-top: 20px;}
+#color{
+  font-size: 15px;
+  margin-left:20px;
+  margin-top: 10px;
+}
+#para1{ margin-top:30px;
+  font-size: 10px;
+  margin-left: 40px;
+  margin-right: 40px;}
+#para2{
+    margin-top:2px; 
+  font-size: 10px;
+  margin-left: 120px;
+  margin-right: 60px;
+  }
+  #button3{
+    background:white;
+    color: black;
+    border: 2px solid black;
+    height:30px;width: 90%;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  #button4{
+    background:black;
+    color:white;
+    border: 2px solid black;
+    height:30px;width: 90%;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+/*box 1*/
  .box1{
   height: 120px;
   width: 220px;
@@ -148,7 +229,6 @@ h2{
   position: absolute;
   background: lightgray;
 }
-
 .box1 h4{
   margin-top: 20px;
   margin-left: -20px;
@@ -156,6 +236,21 @@ h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
 }
+.box1 pre{
+  font-size: 10px;
+  word-spacing: -2px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.box1 h5{
+  margin-top: -10px;
+  font-size: 13px;
+  margin-left: -10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+/*box2*/
 .box2{
   height: 120px;
   width: 220px;
@@ -164,7 +259,6 @@ h2{
   position: absolute;
   background:  lightgray;
 }
-
 .box2 h4{
   margin-top: 20px;
   margin-left: 40px;
@@ -172,6 +266,21 @@ h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
 }
+.box2 pre{
+  font-size: 10px;
+  word-spacing: -2px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.box2 h5{
+  margin-top: -10px;
+  font-size: 13px;
+  margin-left: -10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+/*box3*/
 .box3{
   height: 120px;
   width: 220px;
@@ -180,7 +289,6 @@ h2{
   position: absolute;
   background:  lightgray;
 }
-
 .box3 h4{
   margin-top: 20px;
   margin-left: 40px;
@@ -188,6 +296,21 @@ h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
 }
+.box3 pre{
+  font-size: 10px;
+  word-spacing: -2px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.box3 h5{
+  margin-top: -10px;
+  font-size: 13px;
+  margin-left: -10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+/*box4*/
 .box4{
   height: 120px;
   width: 220px;
@@ -204,6 +327,20 @@ h2{
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  font-weight: 500;
 }
+.box4 pre{
+  font-size: 10px;
+  word-spacing: -2px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.box4 h5{
+  margin-top: -10px;
+  font-size: 13px;
+  margin-left: -10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
 /*highlight...............*/
 .highlight h1{
   margin-top:150px;
@@ -213,7 +350,6 @@ h2{
   font-weight: 600;
   margin-left: 40px;
 }
-
 .highlight .h1{
   height: 160px;
   width: 190px;
@@ -222,7 +358,16 @@ h2{
   position: absolute;
   background: lightgray;
 }
-
+.highlight .h1 h6{
+  margin-left: 70px;font-size: 15px;margin-top: 10px;font-family: sans-serif;font-weight: 500;
+}
+.highlight .h1 img{
+  height:"120px"; 
+  width:"120px"; 
+  align-items: center;
+   margin-top: 0px;
+   margin-left: 30PX;  
+}
 .highlight .h2{
   height: 160px;
   width: 190px;
@@ -230,6 +375,12 @@ h2{
   margin-top: 25px;
   position: absolute;
   background: lightgray;
+}
+.highlight .h2 h6{
+  margin-left: 60px;font-size: 15px;margin-top: 10px;font-family: sans-serif;font-weight: 500;
+}
+.highlight .h2 h2{
+  margin-left: 25px;font-size: 25px;margin-top: 50px;
 }
 .highlight .h3{
   height: 160px;
@@ -239,6 +390,14 @@ h2{
   position: absolute;
   background: lightgray;
 }
+.highlight .h3 h6{
+  margin-left: 50px;font-size: 15px;margin-top: 10px;font-family: sans-serif;font-weight: 500;
+}
+.highlight .h3 h2{margin-left: 60px;font-size: 50px;margin-top: 20px;font-family: sans-serif;font-weight: 600;
+}
+.highlight.h3 h5{
+  margin-left: 80px;font-size: 15px;
+}
 .highlight .h4{
   height: 160px;
   width: 190px;
@@ -246,6 +405,15 @@ h2{
   margin-top: 25px;
   position: absolute;
   background: lightgray;
+}
+.highlight .h4 h6{
+  margin-left: 70px;font-size: 15px;margin-top: 10px;font-family: sans-serif;font-weight: 500;
+}
+.highlight .h4 h2{
+  margin-left: 80px;font-size: 50px;margin-top: 20px;font-family: sans-serif;font-weight: 600;
+}
+.highlight .h4 h5{
+  margin-left: 80px;font-size: 15px;
 }
 .highlight .h5{
   height: 160px;
@@ -255,6 +423,24 @@ h2{
   position: absolute;
   background: lightgray;
 }
+.highlight .h5 h6{
+  margin-left: 70px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.highlight .h5 h2{
+  margin-left: 50px;
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.highlight .h5 h5{
+  margin-left: 80px;
+  font-size: 15px;
+}
 .highlight .h6{
   height: 160px;
   width: 190px;
@@ -262,6 +448,14 @@ h2{
   margin-top: 220px;
   position: absolute;
   background :lightgray;
+}
+.highlight .h6 h6{
+  margin-left: 60px;font-size: 15px;margin-top: 10px;font-family: sans-serif;font-weight: 500;
+}
+.highlight .h6 h2{
+  margin-left: 40px;
+  font-size: 50px;
+  margin-top: 20px;
 }
 .highlight .h7{
   height: 160px;
@@ -271,6 +465,17 @@ h2{
   position: absolute;
   background: lightgray;
 }
+.highlight .h7 h6{
+  margin-left: 70px;font-size: 15px;margin-top: 10px;font-family: sans-serif;font-weight: 500;
+}
+.highlight .h7 img{
+  height:"120px";
+  width:"120px";
+  align-items: center; 
+  margin-top: 0px;
+  margin-left: 30PX;
+}
+
 .highlight .h8{
   height: 160px;
   width: 190px;
@@ -278,6 +483,25 @@ h2{
   margin-top: 220px;
   position: absolute;
   background: lightgray;
+}
+.highlight .h8 h6{
+  margin-left: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.highlight .h8 h2{
+  margin-left: 50px;
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.highlight .h8 h5{
+  margin-left: 105px;
+  font-size: 12px;
+  margin-top: -20px;
 }
 .highlight .h9{
   height: 160px;
@@ -287,6 +511,19 @@ h2{
   position: absolute;
   background: lightgray;
 }
+.highlight .h9 h6{
+  margin-left: 70px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.highlight .h9 h4{
+  margin-top: 50px;
+  margin-left: 35px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
 .highlight .h10{
   height: 160px;
   width: 190px;
@@ -295,6 +532,18 @@ h2{
   position: absolute;
   background: lightgray;
 }
+.highlight .h10 h6{
+  margin-left: 50px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.highlight .h10 h4{
+  margin-top: 40px;
+  margin-left: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
 /*nexttt*/
 
 .imageeee{
@@ -316,6 +565,13 @@ h2{
     background:white;
     margin-top:-395px;
     margin-left: 763px;
+   }
+   .pare h1{margin-top: 50px;margin-left: 320px;}
+   #pare1{
+    margin-top: 35px;margin-left: 320px;margin-right: 210px;
+   }
+   #pare2{
+    margin-top: 15px;margin-left: 320px;margin-right: 210px;
    }
  .paraabox{
   height:400px;
@@ -364,6 +620,9 @@ margin-top:-12px;
   margin-left:500px;
   position: absolute;
 }
+.con2 h3{margin-left:70px;margin-top: 20px;}
+.con2 h1{margin-left:70px;margin-top: 30px;font-size: 50px;}
+.con2 h4{margin-left:70px;font-size: 15px;margin-top: -10px;}
 .con33{
   height:250px;
   width:250px;
@@ -372,6 +631,9 @@ margin-top:-12px;
   margin-left:800px;
   position: absolute;
 }
+.con2 h3{margin-left:70px;margin-top: 20px;}
+.con2 h1{margin-left:70px;margin-top: 30px;font-size: 50px;}
+.con2 h4{margin-left:70px;font-size: 15px;margin-top: -10px;}
 .con44{
   height:250px;
   width:250px;
@@ -380,6 +642,9 @@ margin-top:-12px;
   margin-left:1100px;
   position: absolute;
 }
+.con2 h3{margin-left:70px;margin-top: 20px;}
+.con2 h1{margin-left:70px;margin-top: 30px;font-size: 50px;}
+.con2 h4{margin-left:70px;font-size: 15px;margin-top: -10px;}
 /*4 parassssssssssss*/
 .con5{
   width:100%;
@@ -417,6 +682,9 @@ margin-top:-12px;
   position: absolute;
 }
 /*5 imagesss*/
+.gallery h1{margin-top: 1250px;
+   font-size: 60px;
+   margin-left: 60px;}
 .im1{
   height:450px;
   width:560px;
@@ -434,7 +702,7 @@ margin-top:-12px;
   margin-left:710px;
   position: absolute;
 }
-.im2img{
+.im2 img{
   height:280px;
   width:240px;
   margin-left:10px;
@@ -483,6 +751,11 @@ margin-top:-12px;
   margin-top:-50px;
   }
 /*3 containerrrrrr*/
+.suggestion h1{
+  margin-top: 480px; 
+  font-size: 60px;
+  margin-left: 60px;
+}
 .pic1{
   height:450px;
   width:500px;
@@ -490,6 +763,20 @@ margin-top:-12px;
   margin-top:20px;
   margin-left:20px;
   position: absolute;
+}
+.pic1 img{
+  margin-top:-60px;
+  margin-left: 40px;
+  height:420px;
+}
+.pic1 h2{
+  margin-top:-20px;margin-left: 55px;font-size: 25px;
+}
+.pic1 h3{
+  margin-left: 55px;
+}
+.pic1 h4{
+  margin-left: 55px;
 }
 .pic2{
   height:450px;
@@ -499,6 +786,20 @@ margin-top:-12px;
   margin-left:530px;
   position: absolute;
 }
+.pic2 img{
+  margin-top:-60px;
+  margin-left: 40px;
+  height:420px;
+}
+.pic2 h2{
+  margin-top:-20px;margin-left: 55px;font-size: 25px;
+}
+.pic2 h3{
+  margin-left: 55px;
+}
+.pic2 h4{
+  margin-left: 55px;
+}
 .pic3{
   height:450px;
   width:500px;
@@ -506,6 +807,20 @@ margin-top:-12px;
   margin-top:20px;
   margin-left:1040px;
   position: absolute;
+}
+.pic3 img{
+  margin-top:-60px;
+  margin-left: 40px;
+  height:420px;
+}
+.pic3 h2{
+  margin-top:-20px;margin-left: 55px;font-size: 25px;
+}
+.pic3 h3{
+  margin-left: 55px;
+}
+.pic3 h4{
+  margin-left: 55px;
 }
 /* footer */
 
@@ -584,6 +899,12 @@ input{
   margin-left: 790px;
 margin-top: 128px;
 background: none;
+}
+#arrow{
+text-decoration: none; 
+font-size: 65px; 
+color: black;
+margin-top: 40px;
 }
 /*lastparaaaaaaaaaaa*/
 .lastpara{
