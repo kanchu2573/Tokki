@@ -19,24 +19,31 @@ html{
 * {
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+
   box-sizing: border-box;
   cursor:none;
+}
+
+body{
+    background-color: #f9f9f9;
 }
 
 /* NAVBAR */
 
 .navbar {
   font-family: "Press Start 2P", system-ui;
-  margin: 50px 0;
+  padding: 40px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: black;
+  height: 50px;
+  color: white;
 }
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .navbar h1 {
