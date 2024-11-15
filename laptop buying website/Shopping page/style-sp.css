@@ -1,0 +1,1126 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+/* font-family: "Lexend Deca", sans-serif; */
+/* font-family: "Press Start 2P", system-ui; */
+
+
+*{
+    
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+}
+
+/*navbar*/
+
+.navbar-1{
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Press Start 2P", system-ui;
+    overflow-x: hidden;
+}
+
+.tokki{
+    font-size: 30px;
+}
+
+.navbar-2{
+    height: 25px;
+    background-color: #D9D9D9;
+    display: flex;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+
+main{
+    background-color: #F9F9F9}
+    /*slider*/
+    .navigation .prev {
+      position: absolute;
+      z-index: 10;
+      font-size: 25px;
+      top: 470px;
+      left: 10px;
+      font-weight: 700;
+    }
+
+    .navigation .next {
+      left: 50px;
+      position: absolute;
+      font-size: 25px;
+      z-index: 10;
+      top: 472px;
+    }
+
+    .navigation .nav-btn {
+      background: white;
+      cursor: pointer;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);text-decoration: none;
+    }
+  .wrapper{
+      max-height:675px;
+      border: none;
+      display: flex;
+      overflow-x: auto;
+      margin-top: 5px;
+      position: relative;
+    }
+    .wrapper::-webkit-scrollbar{
+      width:0;
+    }
+    .wrapper .image{
+      min-width:47%;
+      height: 660px;
+      align-items: center;
+      line-height: 460px;
+      margin-right: 1px;
+      margin-left: 5px;
+      background-color: #D9D9D9;
+}
+
+
+
+
+
+
+/* <!-- Description Box --> */
+
+.desc{
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  margin-top: -480px;
+  justify-self: right;
+  margin-left: 950px;
+  background-color: #F9F9F9;
+}
+
+.desc  h2{
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.desc h1{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.desc .price{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  margin-left: 380px;
+  margin-top: -25px;
+  justify-self: right;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desc p{
+  font-family: "Lexend Deca", sans-serif;
+  margin-right: 30px;
+  text-align: justify;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 550;
+}
+
+
+
+.ramji{
+  height: 20px;
+  width: 30px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.ramji h6{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 10px;
+}
+
+.color1{
+  height: 30px;
+  width: 30px;
+  background-color: #1D1F24;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.color2{
+  height: 30px;
+  width: 30px;
+  background-color: #C0C0C0;
+  margin-top: -30px;
+  margin-left: 60px;
+  position: static;
+}
+
+.color3{
+  height: 30px;
+  width: 30px;
+  background-color: #E9E1D9;
+  margin-top: -30px;
+  margin-left: 100px;
+  position: static;
+}
+
+.color4{
+  height: 30px;
+  width: 30px;
+  background-color: #4B4B4D;
+  margin-top: -30px;
+  margin-left: 140px;
+  position: static;
+}
+
+
+
+.btn1{
+  justify-self: center;
+  margin-top: 20px
+}
+
+.btn1 a button{
+  background-color: white;
+  height: 50px;
+  width: 410px;
+  justify-self: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.btn2{
+  justify-self: center;
+  margin-top: 5px;
+}
+
+.btn2 a button{
+  background-color: black;
+  border: none;
+  color: white;
+  height: 50px;
+  width: 410px;
+  justify-self: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.emi p{
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+/* Different */
+
+.difftabs h1{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 70px;
+  font-weight: 350;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.specs1{
+  height: 150px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 100px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.specs1:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.specs1 a{
+  text-decoration: none;
+  color: black;
+}
+
+.specs1 h2{
+  justify-self: center;
+  font-size: 20px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.specs1 p{
+  justify-self: center;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 20PX;
+  margin-top: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.specs1 h3{
+  justify-self: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.specs2{
+  height: 150px;
+  width: 250px;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 370px;
+}
+
+.specs2:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+
+.specs2 h2{
+  justify-self: center;
+  font-size: 20px;  
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.specs2 p{
+  justify-self: center;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 20PX;
+  margin-top: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.specs2 h3{
+  justify-self: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+
+.specs3{
+  height: 150px;
+  width: 250px;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 640px;
+}
+
+.specs3:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+
+.specs3 h2{
+  justify-self: center;
+  font-size: 20px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.specs3 p{
+  justify-self: center;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 20PX;
+  margin-top: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.specs3 h3{
+  justify-self: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+
+/* Highlights */
+
+
+
+.high h1{
+  font-size: 70px;
+  margin-top: 50px;
+  margin-left: 100px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.brand{
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+  justify-content: center;
+}
+
+.brand:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.brand h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.brand img{
+  justify-self: center;
+  height: 170px;
+  
+  margin-top: -20px;
+}
+
+.model{
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 375px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+}
+
+.model:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.model h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.model p{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 30px;
+  margin-top: -20px;
+  justify-self: center;
+}
+
+.screen{
+  justify-self: center;
+  margin-top: -230px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+}
+
+.screen:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.screen h1{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.screen h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 90px;
+  justify-self: center;
+}
+
+.screen h3{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: -50px;
+  justify-self: center;
+}
+
+
+.ram{
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 920px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+}
+
+.ram:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+
+.ram h1{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.ram h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 90px;
+  margin-top: -5px;
+  justify-self: center;
+}
+
+.ram h3{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: -50px;
+  justify-self: center;
+}
+
+
+.ssd{
+  justify-self: right;
+  margin-top: -230px;
+  margin-right: 100px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+}
+
+
+.ssd:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.ssd h1{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.ssd h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 90px;
+  margin-top: -5px;
+  justify-self: center;
+}
+
+.ssd h3{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: -50px;
+  justify-self: center;
+}
+
+
+.cpu{
+  margin-top: 40px;
+  margin-left: 100px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+}
+
+.cpu:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.cpu h1{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.cpu h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 90px;
+  margin-top: -5px;
+  justify-self: center;
+}
+
+.cpu h3{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: -50px;
+  justify-self: center;
+}
+
+.os{
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 375px;
+  height: 230px;
+  display: grid;
+  width: 230px;
+}
+
+
+.os:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+
+.os h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.os img{
+  justify-self: center;
+  height: 170px;
+  
+  margin-top: -20px;
+}
+.backup{
+  justify-self: center;
+  margin-top: -230px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+}
+
+
+.backup:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+
+.backup h1{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.backup h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 90px;
+  margin-top: -5px;
+  justify-self: center;
+}
+
+.backup h3{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: -50px;
+  justify-self: center;
+}
+
+
+.gpu{
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 920px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+}
+
+
+.gpu:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.gpu h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.gpu p{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 30px;
+  margin-top: -20px;
+  justify-self: center;
+}
+
+.suitable{
+  justify-self: right;
+  margin-top: -230px;
+  margin-right: 100px;
+  height: 230px;
+  width: 230px;
+  display: grid;
+}
+
+.suitable:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+
+.suitable h2{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.suitable p{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 30px;
+  margin-top: -20px;
+  justify-self: center;
+  text-align: center;
+}
+
+
+/* Main Description */
+
+.firstimg{
+  width: 87%;
+  height: 500px;
+  justify-self: center;
+  margin-top: 100px;
+}
+
+.img1{
+  height: 500px;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 img{
+  width: 100%;
+}
+
+.textdiv{
+  margin-top: -500px;
+  justify-self: right;
+  height: 500px;
+  width: 49%;
+  display: grid;
+  justify-content: center;
+}
+
+.textdiv h1{
+  font-size: 50px;
+  margin-top: 20px;
+  justify-self: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.textdiv p{
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.textdiv h3{
+  font-size: 15px;
+  text-align: justify;
+  font-weight: 300;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+
+.Secondimg{
+  height: 500px;
+  width: 87%;
+  justify-self: center;
+  margin-top: 100px;
+}
+
+.textdiv2{
+  height: 500px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textdiv2 p{
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: 350;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.img2{
+  height: 500px;
+  width: 48%;
+  justify-self: right;
+  margin-top: -500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2 img{
+  width: 100%;
+}
+
+.Thirdimg{
+  height: 1200px;
+  width: 87%;
+  margin-top: 100px;
+  justify-self: center;
+
+}
+
+.img3{
+  width: 100%;
+  justify-self: center;
+}
+
+.img3 img{
+  width: 100%;
+
+}
+
+.textdiv3{
+  margin-top: 50px;
+  width: 75%;
+  justify-self: center;
+  height: 400px;
+}
+
+
+.textdiv3 p{
+  font-size: 20px;
+  font-weight: 350;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* Gallery */
+
+.title h1{
+  font-size: 70px;
+  font-weight: 350;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.first{
+  height: 600px;
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.first img{
+  width: 90%;
+}
+
+.sec{
+  height: 280px;
+  width: 320px;
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.sec img{
+  width: 90%;
+}
+
+.tri{
+  height: 280px;
+  width: 320px;
+  justify-self: right;
+  margin-right: 100px;
+  margin-top: -600px;
+  margin-left: 1020px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tri:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.tri img{
+  width: 90%;
+}
+
+.for{
+  height: 280px;
+  width: 320px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.for:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+.for img{
+  width: 90%;
+}
+
+.fif{
+  height: 280px;
+  width: 320px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fif img{
+  width: 90%;
+}
+
+.fif:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+}
+
+
+
+/* footer */
+
+.leftside{
+  height: 700px;
+  width: 550px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.mail{
+  height: 350px;
+  width: 950px;
+  margin-top: 540px;
+  justify-self: right;
+  margin-right: 170px;
+}
+
+.para{
+  height: 330px;
+  width: 950px;
+  margin-top: 20px;
+  justify-self: right;
+  margin-right: 170px;
+  margin-bottom: 50px;
+}
+
+.leftside h2{
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  margin-top: 58px;
+}
+
+.leftside h2 a{
+  text-decoration: none;
+  color: black;
+  column-gap: 40px;
+  margin-top: 30px;
+}
+/*mailllllllllll*/
+.mail h2{
+  align-self: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 35px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+input{
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 130px;
+  width: 750px;
+  height: 60px;
+  outline: none;
+  font-size: 40px;
+  padding: 0 10px;
+  line-height: 80px;
+  background: transparent;
+  transition: 0.5 ease;
+  font-family: serif;
+  border: 0;
+  border-bottom: 2px solid black;
+  font-weight: 20;
+}
+.mail button{
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  margin-right: 360px;
+  border: none;
+  margin-left: 790px;
+margin-top: 128px;
+background: none;
+}
+#arrow{
+text-decoration: none; 
+font-size: 65px; 
+color: black;
+margin-top: 40px;
+}
+/*lastparaaaaaaaaaaa*/
+.lastpara{
+  height: 320px;
+  width:480px;
+  position: absolute;
+  margin-left: 520px;
+  margin-top:0px;
+}
+.lastpara h1{
+  margin-top:30px;
+  margin-left: 10px;
+  font-size: 25px;
+   font-family:"Press Start 2P", system-ui;
+}
+.lastpara p{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 90px;
+  font-size: 20px;
+  word-spacing: 7px;
+  line-height: 25px;
+  font-family: "lexend Deca",sans-serif;
+}
+/*iconsss*/
+.icon1{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  background: gray;
+  margin-top: 120px;
+  margin-left: 1040px;
+}
+.icon2{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  background: gray;
+  margin-top: -105px;
+  margin-left: 1160px;
+}
+.icon3{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  background: gray;
+  margin-top: 20px;
+  margin-left: 1040px;
+}
+.icon4{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  background: gray;
+  margin-top: -105px;
+  margin-left: 1160px;
+}
+
+
+
+
+
+
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #000000;
+}
+
+
+.cursor {
+  position: fixed;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background-color: white;
+  margin-left: -4px;
+  margin-top: -4px;
+  z-index: 1000;
+  backdrop-filter: grayscale(1);
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(0.19, 1, 0.22, 1), top 0.1s, left 0.1s;
+}
+
+.cursor.active {
+  transform: scale(10);
+}
+
+
+
