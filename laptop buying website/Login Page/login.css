@@ -7,6 +7,10 @@
     font-family: "Lexend Deca", sans-serif; */
 }
 
+body{
+    background-color: #f9f9f9;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -75,6 +79,9 @@ main{
     border: none;
     background-color: black;
     color: white;
+    font-family: "Lexend Deca", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .username{
