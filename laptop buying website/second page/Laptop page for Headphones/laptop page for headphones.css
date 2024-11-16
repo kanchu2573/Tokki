@@ -86,15 +86,21 @@ a{
     background-color: antiquewhite;
 }
 
-.image-box img{
-    height: 323px;
+.image-box{
+    height: 450px;
+    width: 450px;
     display: flex;
-    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box img{
+    width: 75%;
 }
 
 .info{
     height: 108px;
-    width: 449px;
+    width: 450px;
     align-items: center;
     padding-left: 25px;
     padding-top: 2px;
