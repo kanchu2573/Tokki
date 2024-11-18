@@ -35,9 +35,11 @@
 }
 
 .contact{
-    height: 900px;
-    display: flex;
+    height: 700px;
+    display: block;
     flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
     justify-content: space-evenly;
 }
 
@@ -98,14 +100,16 @@
     height: 200px;
     width: 356.5px;
     background-color: #D9D9D9;
-    margin: 10px;
+    margin: 13px;
+    margin-top: 0px;
     font-size: 40px;
     align-content: center;
     background-color: #D9D9D9;
-    margin: 20px;
     font-size: 40px;
     align-content: center;
 }
+
+/* ------------------------CURSOR STARTS------------------ */
 
 #progress {
     position: fixed;
