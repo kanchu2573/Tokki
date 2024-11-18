@@ -102,7 +102,12 @@ main{
       margin-right: 1px;
       margin-left: 5px;
       background-color: #D9D9D9;
-}
+    }
+
+    .wrapper img{
+      height: 100%;
+      width: 100%;
+    }
 
 
 
@@ -262,11 +267,11 @@ main{
   margin-top: 50px;
   margin-left: 100px;
   text-decoration: none;
-  border: 1px solid black;
 }
 
 .specs1:hover {
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+  border: 1px solid black;
 }
 
 .specs1 a{
@@ -308,6 +313,7 @@ main{
 
 .specs2:hover {
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+  border: 1px solid black;
 }
 
 
@@ -346,6 +352,7 @@ main{
 
 .specs3:hover {
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;
+  border: 1px solid black;
 }
 
 
